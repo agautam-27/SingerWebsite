@@ -40,7 +40,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("/assets/images/main.jpg") center/cover no-repeat;
+    background: url("/assets/images/main1.jpeg") center/cover no-repeat;
     opacity: 0.2;
     z-index: -1;
 }
@@ -220,7 +220,7 @@ body.menu-open {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("/assets/images/main.jpg") center/cover no-repeat;    color: var(--text-white);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("/assets/images/main1.jpeg") center/cover no-repeat;    color: var(--text-white);
     position: relative;
 }
 
