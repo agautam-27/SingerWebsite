@@ -5,27 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stuti Sri | Singer-Songwriter</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">SS</div>
-        <nav>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#music">Music</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- Update the header section -->
+<header class="hero-header">
+    <div class="logo">Stuti Sri</div>
+    <nav>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
     <section class="hero">
         <div class="hero-content">
@@ -45,7 +47,7 @@
                 <div class="release-card">
                     <div class="release-artwork">
                         <img src="assets/images/Song1.jpg" alt="Song Cover 1">
-                        <div class="play-button">
+                        <div class="play-button" data-video-id="ptN8eS10t8A">
                             <i class="fas fa-play"></i>
                         </div>
                     </div>
@@ -53,15 +55,15 @@
                         <h3>Naino Se Karo Shringar Mai</h3>
                         <p class="release-date">Released Jan 2025</p>
                         <div class="streaming-links">
-                            <a href="https://open.spotify.com/track/03FmpL3PgqyTxMy17vPiyI?si=QAHt3PxnSzCgiUJ75IddGg" target="_blank"><i class="fab fa-spotify"></i></a>
-                            <a href="https://youtu.be/ptN8eS10t8A?si=lI-jr8181ZTdJaKK" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://open.spotify.com/track/03FmpL3PgqyTxMy17vPiyI?si=QAHt3PxnSzCgiUJ75IddGg" target="_blank" title="Spotify"><i class="fab fa-spotify"></i></a>
+                            <a href="https://youtu.be/ptN8eS10t8A?si=lI-jr8181ZTdJaKK" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="release-card">
                     <div class="release-artwork">
                         <img src="assets/images/Song2.png" alt="Song Cover 2">
-                        <div class="play-button">
+                        <div class="play-button" data-video-id="ZhRzmxZzDFQ">
                             <i class="fas fa-play"></i>
                         </div>
                     </div>
@@ -69,8 +71,8 @@
                         <h3>Diwani Mehfile</h3>
                         <p class="release-date">Released Feb 2025</p>
                         <div class="streaming-links">
-                            <a href="https://open.spotify.com/track/43CNCa47ONdZMgoLzxZf3i?si=Zpo66W4rTt2UlZdmFmIb4Q" target="_blank"><i class="fab fa-spotify"></i></a>
-                            <a href="https://youtu.be/ZhRzmxZzDFQ?si=9G9WJljPfsfIuSpq" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://open.spotify.com/track/43CNCa47ONdZMgoLzxZf3i?si=Zpo66W4rTt2UlZdmFmIb4Q" target="_blank" title="Spotify"><i class="fab fa-spotify"></i></a>
+                            <a href="https://youtu.be/ZhRzmxZzDFQ?si=9G9WJljPfsfIuSpq" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -94,10 +96,10 @@
         </div>
     </section>
 
-    <section id="gallery" class="gallery-section">
+    <!-- <section id="gallery" class="gallery-section">
         <div class="section-container">
             <h2 class="section-title">Gallery</h2>
-            <p class="section-title">This Section coming SOON :) </p>
+            <p class="coming-soon">Coming Soon</p>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <img src="assets/images/placeholder-gallery-1.jpg" alt="Stuti">
@@ -113,7 +115,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="contact" class="contact-section">
         <div class="section-container">
@@ -129,9 +131,9 @@
                         <p>Based in Vancouver, Canada</p>
                     </div>
                     <div class="social-links">
-                        <a href="https://www.instagram.com/stuti_sri11/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCLrmteSiyDAX18Eno-GQbxg" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a href="https://open.spotify.com/artist/3slGwNjQPYTrSrF0KI6BN2?si=yfBxsNViSxypS95vajnjww" target="_blank"><i class="fab fa-spotify"></i></a>
+                        <a href="https://www.instagram.com/stuti_sri11/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCLrmteSiyDAX18Eno-GQbxg" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/artist/3slGwNjQPYTrSrF0KI6BN2?si=yfBxsNViSxypS95vajnjww" target="_blank" title="Spotify"><i class="fab fa-spotify"></i></a>
                     </div>
                 </div>
                 <form class="contact-form">
@@ -152,6 +154,14 @@
             </div>
         </div>
     </section>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <button class="close-modal">&times;</button>
+            <iframe id="videoFrame" src="" allowfullscreen></iframe>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
