@@ -6,7 +6,19 @@
 
     .logo {
         left: 5%;
-        font-size: 2rem;
+        width: 60px;
+        height: 60px;
+        top: 10px;
+    }
+    
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .logo::after {
+        width: 10px;
+        height: 10px;
     }
 
     .hamburger {
@@ -57,17 +69,6 @@
 
     .hamburger.active .line:nth-child(3) {
         transform: rotate(-45deg) translate(8px, -8px);
-    }
-
-    /* When scrolled on mobile */
-    .hero-header.scrolled .nav-links {
-        background: rgba(52, 73, 94, 0.95);
-    }
-
-    .hero-header.scrolled .nav-links a {
-        color: var(--text-white);
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid rgba(255, 255, 255, 0.2);
     }
 
     /* Hero adjustments */
@@ -200,8 +201,20 @@
 /* Mobile Responsiveness - 480px and below */
 @media screen and (max-width: 480px) {
     .logo {
-        font-size: 1.8rem;
+        width: 55px;
+        height: 55px;
+        top: 8px;
         left: 4%;
+    }
+    
+    .logo img {
+        height: 45px;
+        width: 45px;
+    }
+    
+    .logo::after {
+        width: 8px;
+        height: 8px;
     }
 
     .hamburger {
