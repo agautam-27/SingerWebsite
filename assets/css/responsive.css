@@ -93,6 +93,8 @@
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        margin-top: 280px; 
+
     }
 
     .btn {
